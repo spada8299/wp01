@@ -5,32 +5,67 @@
     <title></title>
   </head>
   <body>
-  	<p>
-    	<label>1.your name</label>
-    </p>
+  	<form>
+  	<p><label for="name">1.your name:</label></p>
+  	<p><input type="text" name="name" id="name" placeholder="Your name" pattern="[A-Za-z0-9]{6}"></p>
+    
+    <p>2.what is your gender?</p>
     <p>
-    	<label>2.what is your gender?</label>
+    	<label><input type="radio" name="gender" value="g0">male</label><br>
+    	<label><input type="radio" name="gender" value="g1">female</label>
     </p>
+    
+    <p><label for="birthday">3.birthday</label></p>
+    <p><input type="date" name="birthday" id="birthday"></p>
+
+    <p><label>4.which form of transport do you use?</label></p>
     <p>
-    	<label>3.birthday</label>
+    	<label><input type="checkbox" name="tra" value="t0">walking</label><br>
+    	<label><input type="checkbox" name="tra" value="t1">bike</label><br>
+    	<label><input type="checkbox" name="tra" value="t2">motorcycle</label><br>
+    	<label><input type="checkbox" name="tra" value="t3">car</label><br>
+    	<label><input type="checkbox" name="tra" value="t4">bus</label><br>
+    	<label><input type="checkbox" name="tra" value="t5">metro</label><br>
+    	<label><input type="checkbox" name="tra" value="t6">train</label><br>
+    	<label><input type="checkbox" name="tra" value="t7">airplane</label>
     </p>
+
+    <p><label>5.what is the highest level of education you have completed?</label></p>
     <p>
-    	<label>4.which form of transport do you use?</label>
+    	<label><input type="radio" name="edu" value="e1">less than high school</label><br>
+    	<label><input type="radio" name="edu" value="e2">high school or equivalent</label><br>
+    	<label><input type="radio" name="edu" value="e3">attended college/university</label><br>
+    	<label><input type="radio" name="edu" value="e4">associate degree</label><br>
+    	<label><input type="radio" name="edu" value="e5">bachelor's degree</label><br>
+    	<label><input type="radio" name="edu" value="e6">master's degree</label><br>
+    	<label><input type="radio" name="edu" value="e7">professional degree</label><br>
+    	<label><input type="radio" name="edu" value="e8">doctorate degree</label><br>
+    	<label><input type="radio" name="edu" value="e8">i prefer not to answer</label>
     </p>
-    <p>
-    	<label>5.what is the highest level of education you have completed?</label>
-    </p>
-    <p>
-    	<label>6.which industry do you work in or are most involved with?</label>
+    
+    <p><label>6.which industry do you work in or are most involved with?</label></p>
+    <p><select>
+			<option value="Accounting">Accounting</option>
+			<option value="Writing &amp; Editing">Writing &amp; Editing</option>
+			<option value="Animation">Animation</option>
+			<option value="Photography">Photography</option>
+			<option value="Graphic Design">Graphic Design</option>
+			<option value="Computer Software">Computer Software</option>
+			<option value="Computer Games">Computer Games</option>
+			<option value="Information Technology &amp; Services">Information Technology &amp; Services</option>
+		</select>
 	</p>
-	<p>
-		<label>7.your phone#</label>
-	</p>
-	<p>
-		<label>8.email address</label>
-	</p>
-	<p>
-		<label>9.personal website</label>
-	</p>
+	
+	<p><label>7.your phone#</label></p>
+	<p><input type="tel" placeholder="09xxxxxxxx" pattern="[0-9]{10}"></p>
+	
+	<p><label for="email">8.email address</label></p>
+	<p><input type="email" id="email" placeholder="yourEmail@ooxx.com"></p>
+	
+	<p><label for="web">9.personal website</label></p>
+	<p><input type="url" id="web" placeholder="http://www.yourWebsite.com"></p>
+
+	<p><input type="submit" value="submit"></p>
+</form>
   </body>
 </html>
