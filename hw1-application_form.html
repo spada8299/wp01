@@ -4,52 +4,57 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
+  <body bgcolor="aliceblue">
     <nav>
             <a href="http://spada8299.github.io/wp01/hw1-course_page.html">課程簡介</a> | 
             <a href="http://spada8299.github.io/wp01/hw1-application_form.html">申請加入課程</a>
         </nav>
+        
+  	<center>
         <h1>申請加入課程</h1>
-  	<form>
-  	<p><label for="name">1.your name:</label></p>
-  	<p><input type="text" name="name" id="name" placeholder="Your name" pattern="[A-Za-z0-9]{6}"></p>
+    <form>
+        <table border="0">
+            <tr>
+                <td>
+  	<p><label for="name" style="font-size:34px">1.your name:</label></p>
+  	<p><input type="text" name="name" id="name" placeholder="Your name" pattern="[A-Za-z0-9]{6}" style="font-size:20px"></p>
     
-    <p>2.what is your gender?</p>
+    <p style="font-size:34px">2.what is your gender?</p>
     <p>
-    	<label><input type="radio" name="gender" value="g0">male</label><br>
-    	<label><input type="radio" name="gender" value="g1">female</label>
+    	<label style="font-size:20px"><input type="radio" name="gender" value="g0">male</label><br>
+    	<label style="font-size:20px"><input type="radio" name="gender" value="g1">female</label>
     </p>
     
-    <p><label for="birthday">3.birthday</label></p>
-    <p><input type="date" name="birthday" id="birthday"></p>
+    <p><label for="birthday" style="font-size:34px">3.birthday</label></p>
+    <p><input type="date" name="birthday" id="birthday" style="font-size:20px"></p>
 
-    <p><label>4.which form of transport do you use?</label></p>
+    <p><label style="font-size:34px">4.which form of transport do you use?</label></p>
     <p>
-    	<label><input type="checkbox" name="tra" value="t0">walking</label><br>
-    	<label><input type="checkbox" name="tra" value="t1">bike</label><br>
-    	<label><input type="checkbox" name="tra" value="t2">motorcycle</label><br>
-    	<label><input type="checkbox" name="tra" value="t3">car</label><br>
-    	<label><input type="checkbox" name="tra" value="t4">bus</label><br>
-    	<label><input type="checkbox" name="tra" value="t5">metro</label><br>
-    	<label><input type="checkbox" name="tra" value="t6">train</label><br>
-    	<label><input type="checkbox" name="tra" value="t7">airplane</label>
+    	<label style="font-size:20px"><input type="checkbox" name="tra" value="t0">walking</label><br>
+    	<label style="font-size:20px"><input type="checkbox" name="tra" value="t1">bike</label><br>
+    	<label style="font-size:20px"><input type="checkbox" name="tra" value="t2">motorcycle</label><br>
+    	<label style="font-size:20px"><input type="checkbox" name="tra" value="t3">car</label><br>
+    	<label style="font-size:20px"><input type="checkbox" name="tra" value="t4">bus</label><br>
+    	<label style="font-size:20px"><input type="checkbox" name="tra" value="t5">metro</label><br>
+    	<label style="font-size:20px"><input type="checkbox" name="tra" value="t6">train</label><br>
+    	<label style="font-size:20px"><input type="checkbox" name="tra" value="t7">airplane</label>
     </p>
 
-    <p><label>5.what is the highest level of education you have completed?</label></p>
+    <p><label style="font-size:34px">5.what is the highest level of education you have completed?</label></p>
     <p>
-    	<label><input type="radio" name="edu" value="e1">less than high school</label><br>
-    	<label><input type="radio" name="edu" value="e2">high school or equivalent</label><br>
-    	<label><input type="radio" name="edu" value="e3">attended college/university</label><br>
-    	<label><input type="radio" name="edu" value="e4">associate degree</label><br>
-    	<label><input type="radio" name="edu" value="e5">bachelor's degree</label><br>
-    	<label><input type="radio" name="edu" value="e6">master's degree</label><br>
-    	<label><input type="radio" name="edu" value="e7">professional degree</label><br>
-    	<label><input type="radio" name="edu" value="e8">doctorate degree</label><br>
-    	<label><input type="radio" name="edu" value="e8">i prefer not to answer</label>
+    	<label style="font-size:20px"><input type="radio" name="edu" value="e1">less than high school</label><br>
+    	<label style="font-size:20px"><input type="radio" name="edu" value="e2">high school or equivalent</label><br>
+    	<label style="font-size:20px"><input type="radio" name="edu" value="e3">attended college/university</label><br>
+    	<label style="font-size:20px"><input type="radio" name="edu" value="e4">associate degree</label><br>
+    	<label style="font-size:20px"><input type="radio" name="edu" value="e5">bachelor's degree</label><br>
+    	<label style="font-size:20px"><input type="radio" name="edu" value="e6">master's degree</label><br>
+    	<label style="font-size:20px"><input type="radio" name="edu" value="e7">professional degree</label><br>
+    	<label style="font-size:20px"><input type="radio" name="edu" value="e8">doctorate degree</label><br>
+    	<label style="font-size:20px"><input type="radio" name="edu" value="e8">i prefer not to answer</label>
     </p>
     
-    <p><label>6.which industry do you work in or are most involved with?</label></p>
-    <p><select>
+    <p><label style="font-size:34px">6.which industry do you work in or are most involved with?</label></p>
+    <p><select style="font-size:20px">
 			<option value="Accounting">Accounting</option>
 			<option value="Writing &amp; Editing">Writing &amp; Editing</option>
 			<option value="Animation">Animation</option>
@@ -61,16 +66,20 @@
 		</select>
 	</p>
 	
-	<p><label>7.your phone#</label></p>
-	<p><input type="tel" placeholder="09xxxxxxxx" pattern="[0-9]{10}"></p>
+	<p><label style="font-size:34px">7.your phone#</label></p>
+	<p><input type="tel" placeholder="09xxxxxxxx" pattern="[0-9]{10}" style="font-size:20px"></p>
 	
-	<p><label for="email">8.email address</label></p>
-	<p><input type="email" id="email" placeholder="yourEmail@ooxx.com"></p>
+	<p><label for="email" style="font-size:34px">8.email address</label></p>
+	<p><input type="email" id="email" placeholder="yourEmail@ooxx.com" style="font-size:20px" size="50"></p>
 	
-	<p><label for="web">9.personal website</label></p>
-	<p><input type="url" id="web" placeholder="http://www.yourWebsite.com"></p>
+	<p><label for="web" style="font-size:34px">9.personal website</label></p>
+	<p><input type="url" id="web" placeholder="http://www.yourWebsite.com" style="font-size:20px" size="50"></p>
 
-	<p><input type="submit" value="submit"></p>
+	<p><input type="submit" value="submit" style="font-size:20px"></p>
+</td>
+</tr>
+</table>
 </form>
+</center>
   </body>
 </html>
