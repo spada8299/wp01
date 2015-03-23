@@ -1,0 +1,19 @@
+nav{
+	background-color: #F6C284;
+	padding: 10px 20px;
+}
+.nav1>a{
+	background-color: #F6C284;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #5B554D;
+}
+
+.nav1 span{
+    padding: 10px 20px;
+}
+
+.nav1>a:hover {
+    background-color: #907D65;
+    color: #F6C284;
+}
