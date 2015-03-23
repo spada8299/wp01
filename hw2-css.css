@@ -1,12 +1,34 @@
+/*@import url(http://fonts.googleapis.com/css?family=Bitter:400,700&subset=latin,latin-ext);*/
+
+/*@font-face{
+	font-family: ChineseFont;
+	src: url(Wang han zong Slim boldface Font-Traditional Chinese.ttf);
+}*/
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+
+body{
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(http://spada8299.github.io/wp01/school.png);
+}
+header{
+	padding: 1em;
+	text-align: center;
+}
+
 nav{
 	background-color: #F6C284;
 	padding: 10px 20px;
+	border-radius: 1em;
+
 }
 .nav1>a{
 	background-color: #F6C284;
     padding: 10px 20px;
     text-decoration: none;
     color: #5B554D;
+    font-family: "微軟正黑體", serif;
 }
 
 .nav1 span{
@@ -16,4 +38,44 @@ nav{
 .nav1>a:hover {
     background-color: #907D65;
     color: #F6C284;
+}
+
+h1,h2,p,li,table{
+	color: #5B554D;
+	font-family: "微軟正黑體", serif;
+}
+
+.infor>h2 {
+/*	border-bottom: 1px solid;
+*/	text-align: center;
+	background-color: #F6C284;
+	border-radius: 0.5em;
+}
+
+.infor>p{
+	padding-left: 2em;
+}
+
+div.infor{
+	float: left;
+	width: 600px;
+	padding-right: 5em;
+	border-right: 1px solid;
+}
+
+strong{
+	color: #FC7200;
+}
+
+.chart{
+	width: 400px;
+	float: right;
+	border: 0px;
+}
+
+img{
+	opacity: 0.4;
+}
+img:hover{
+	opacity: 1.0;
 }
