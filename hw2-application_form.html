@@ -15,21 +15,26 @@
     </header>
   	<div class="form1">
     <form>
-        <table border="0">
-            <tr>
-                <td>
+    
+    <div class="answer_section"> 
   	<p><label for="name" style="font-size:34px">1.your name:</label></p>
   	<p><input type="text" name="name" id="name" placeholder="Your name" pattern="[A-Za-z0-9]{6}" style="font-size:20px"></p>
+    </div>
     
+    <div class="answer_section">
     <p style="font-size:34px">2.what is your gender?</p>
     <p>
     	<label style="font-size:20px"><input type="radio" name="gender" value="g0">male<i class="fa fa-mars"></i></label><br>
     	<label style="font-size:20px"><input type="radio" name="gender" value="g1">female<i class="fa fa-venus"></i></label>
     </p>
+    </div>
     
+    <div class="answer_section">
     <p><label for="birthday" style="font-size:34px">3.birthday</label></p>
     <p><input type="date" name="birthday" id="birthday" style="font-size:20px"></p>
-
+    </div>
+    
+    <div class="answer_section">
     <p><label style="font-size:34px">4.which form of transport do you use?</label></p>
     <p>
     	<label style="font-size:20px"><input type="checkbox" name="tra" value="t0">walking</label><br>
@@ -41,7 +46,9 @@
     	<label style="font-size:20px"><input type="checkbox" name="tra" value="t6">train</label><br>
     	<label style="font-size:20px"><input type="checkbox" name="tra" value="t7">airplane</label>
     </p>
+    </div>
 
+    <div class="answer_section">
     <p><label style="font-size:34px">5.what is the highest level of education you have completed?</label></p>
     <p>
     	<label style="font-size:20px"><input type="radio" name="edu" value="e1">less than high school</label><br>
@@ -54,7 +61,9 @@
     	<label style="font-size:20px"><input type="radio" name="edu" value="e8">doctorate degree</label><br>
     	<label style="font-size:20px"><input type="radio" name="edu" value="e8">i prefer not to answer</label>
     </p>
-    
+    </div>
+
+    <div class="answer_section">
     <p><label style="font-size:34px">6.which industry do you work in or are most involved with?</label></p>
     <p><select style="font-size:20px">
 			<option value="Accounting">Accounting</option>
@@ -67,20 +76,26 @@
 			<option value="Information Technology &amp; Services">Information Technology &amp; Services</option>
 		</select>
 	</p>
-	
+	</div>
+
+    <div class="answer_section">
 	<p><label style="font-size:34px">7.your phone#</label></p>
 	<p><input type="tel" placeholder="09xxxxxxxx" pattern="[0-9]{10}" style="font-size:20px"></p>
-	
+	</div>
+
+    <div class="answer_section">
 	<p><label for="email" style="font-size:34px">8.email address</label></p>
 	<p><input type="email" id="email" placeholder="yourEmail@ooxx.com" style="font-size:20px" size="50"></p>
-	
+	</div>
+
+    <div class="answer_section">
 	<p><label for="web" style="font-size:34px">9.personal website</label></p>
 	<p><input type="url" id="web" placeholder="http://www.yourWebsite.com" style="font-size:20px" size="50"></p>
+    </div>
 
+    <div class="submit_section">
 	<p><input type="submit" value="submit" style="font-size:20px"></p>
-</td>
-</tr>
-</table>
+    </div>
 </form>
 </div>
   </body>
