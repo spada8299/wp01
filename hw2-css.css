@@ -52,30 +52,90 @@ h1,h2,p,li,table{
 	border-radius: 0.5em;
 }
 
-.infor>p{
+.infor>p,.infor>ol,.infor>ul{
 	padding-left: 2em;
+	text-shadow: 0 0 3px #F6C284;
 }
 
 div.infor{
 	float: left;
 	width: 600px;
-	padding-right: 5em;
-	border-right: 1px solid;
+	padding-right: 5em ;
+	border-right: 1px solid #907D65;
 }
 
 strong{
 	color: #FC7200;
+	font-style: bold;
 }
 
 .chart{
-	width: 400px;
+	width: 35%;
 	float: right;
 	border: 0px;
 }
 
 img{
 	opacity: 0.4;
+	padding: 2em;
+	padding-bottom: 0em;
 }
 img:hover{
 	opacity: 1.0;
+}
+
+th{
+	font-size: 24px;
+	font-weight: 900;
+	padding-top: 1em;
+}
+
+ol.competence_list{
+	list-style: inside;
+	list-style-type: upper-alpha;
+}
+
+ol.schedule_list{
+	list-style: decimal inside;
+}
+
+.schedule_list>li{
+	width: 300px;
+}
+
+.schedule_list>li:nth-child(odd){
+	background-color:rgba(255,255,255,0.5);
+}
+
+.introducing{
+	background-color: #F6C284;
+	border-radius: 2em;
+}
+
+.student_core_competence{
+	padding-left: 40px;
+}
+
+label{
+	border-radius: 0.5em;
+}
+
+div.form1{
+	margin-right: auto;
+	margin-left: auto;
+	width: 600px;
+}
+
+input[type="text"],input[type="date"],select,input[type="tel"] {
+	border: 1px solid #CCC;
+	border-radius: 8px;
+	padding: 10px 5px 10px 10px;
+	width: 70%;
+}
+
+input[type="email"],input[type="url"]{
+	border: 1px solid #CCC;
+	border-radius: 8px;
+	padding: 10px 5px 10px 10px;
+	width: 90%;
 }
