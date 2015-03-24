@@ -123,7 +123,8 @@ label{
 div.form1{
 	margin-right: auto;
 	margin-left: auto;
-	width: 600px;
+	max-width: 700px;
+	padding-left: 2em;
 }
 
 input[type="text"],input[type="date"],select,input[type="tel"] {
@@ -138,4 +139,32 @@ input[type="email"],input[type="url"]{
 	border-radius: 8px;
 	padding: 10px 5px 10px 10px;
 	width: 90%;
+}
+
+div.answer_section {
+	padding-left: 2em;
+	padding-bottom: 2em;
+	border-radius: 2em;
+}
+
+div.answer_section:hover{
+	background-color: rgba(196, 164, 140, 0.5);
+}
+
+input[type="submit"]{
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	background-color: white;
+	width: 20%;
+	color: #5B554D;
+}
+
+input[type="submit"]:hover{
+	background-color: rgb(196, 164, 140);
+}
+
+div.submit_section{
+	padding-left: 2em;
+	padding-bottom: 2em;
 }
